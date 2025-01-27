@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeux Iconiques de la PS4</title>
+    <style>
+        /* Style général */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #1a1a1a, #003087);
+            color: white;
+        }
+        header {
+            background: linear-gradient(135deg, #0050c7, #003087);
+            padding: 2rem;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        header h1 {
+            margin: 0;
+            color: white;
+            font-size: 2.5rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #0050c7;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            margin: 0 1rem;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #1a5db4;
+        }
+        main {
+            padding: 2rem;
+        }
+
+        /* Styles pour les jeux */
+        .game {
+            margin-bottom: 2rem;
+            border: 1px solid #333;
+            border-radius: 10px;
+            padding: 1rem;
+            background: linear-gradient(135deg, #1a1a1a, #003087);
+            text-align: center;
+            opacity: 0;
+            transform: translateY(50px);
+            animation: fadeInUp 1s ease-out forwards;
+        }
+        .game:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+        .game:nth-child(3) {
+            animation-delay: 0.4s;
+        }
+        .game:nth-child(4) {
+            animation-delay: 0.6s;
+        }
+        .game:nth-child(5) {
+            animation-delay: 0.8s;
+        }
+        .game img {
+            max-width: 20%; /* Taille maximale relative au conteneur */
+            height: auto; /* Conserve les proportions */
+            margin-bottom: 1rem;
+            border-radius: 10px;
+        }
+        .game h2 {
+            margin-top: 0;
+            color: #007aff;
+        }
+
+        /* Animation */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Pied de page */
+        footer {
+            background-color: #003087;
+            text-align: center;
+            padding: 1rem;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Jeux Iconiques de la PS4</h1>
+    </header>
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="histoire.html">Histoire</a>
+        <a href="jeux.html">Jeux Iconiques</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <main>
+        <section class="game">
+            <img src="img/The Last of Us Part II.png" alt="The Last of Us Part II">
+            <h2>The Last of Us Part II</h2>
+            <p><strong>Développeur :</strong> Naughty Dog</p>
+            <p><strong>Genre :</strong> Action-aventure, Survival Horror</p>
+            <p><strong>Sortie :</strong> 2020</p>
+            <p>The Last of Us Part II est une suite captivante et émotionnelle qui explore des thèmes complexes comme la vengeance, la perte et l'humanité. Le gameplay raffiné et les graphismes époustouflants en font un chef-d'œuvre de la PS4.</p>
+        </section>
+
+        <section class="game">
+            <img src="img/God of War.png" alt="God of War (2018)">
+            <h2>God of War (2018)</h2>
+            <p><strong>Développeur :</strong> Santa Monica Studio</p>
+            <p><strong>Genre :</strong> Action-aventure</p>
+            <p><strong>Sortie :</strong> 2018</p>
+            <p>God of War réinvente la série avec une perspective à la troisième personne et un récit centré sur la relation entre Kratos et son fils Atreus. Le jeu est salué pour son gameplay intense et sa narration émotionnelle.</p>
+        </section>
+
+        <section class="game">
+            <img src="img/Uncharted 4 A Thiefs End.png" alt="Uncharted 4: A Thief's End">
+            <h2>Uncharted 4: A Thief's End</h2>
+            <p><strong>Développeur :</strong> Naughty Dog</p>
+            <p><strong>Genre :</strong> Action-aventure</p>
+            <p><strong>Sortie :</strong> 2016</p>
+            <p>Dans ce chapitre final de la saga Nathan Drake, les joueurs explorent des paysages magnifiques et résolvent des énigmes tout en découvrant des trésors enfouis. Une aventure incontournable pour les fans de la série.</p>
+        </section>
+
+        <section class="game">
+            <img src="img/Marvel's Spider-Man.png" alt="Marvel's Spider-Man">
+            <h2>Marvel's Spider-Man</h2>
+            <p><strong>Développeur :</strong> Insomniac Games</p>
+            <p><strong>Genre :</strong> Action-aventure</p>
+            <p><strong>Sortie :</strong> 2018</p>
+            <p>Marvel's Spider-Man offre une expérience de super-héros dynamique, avec un gameplay fluide et un monde ouvert détaillé. L'histoire originale et le système de combat ont été largement acclamés.</p>
+        </section>
+
+        <section class="game">
+            <img src="img/Horizon Zero Dawn.png" alt="Horizon Zero Dawn">
+            <h2>Horizon Zero Dawn</h2>
+            <p><strong>Développeur :</strong> Guerrilla Games</p>
+            <p><strong>Genre :</strong> RPG, Action-aventure</p>
+            <p><strong>Sortie :</strong> 2017</p>
+            <p>Dans un monde post-apocalyptique peuplé de créatures mécaniques, Aloy part en quête de réponses sur son passé. Le jeu combine un gameplay captivant avec des graphismes à couper le souffle.</p>
+        </section>
+    </main>
+    <footer>
+        &copy; 2025 Présentation PS4 - Tous droits réservés.
+    </footer>
+</body>
+</html>

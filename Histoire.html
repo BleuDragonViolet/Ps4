@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Histoire de la PS4</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #1a1a1a, #003087);
+            color: white;
+            overflow-x: hidden;
+        }
+        header {
+            background: linear-gradient(135deg, #0050c7, #003087);
+            padding: 2rem;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            animation: slideInTop 1s ease;
+        }
+        header h1 {
+            margin: 0;
+            color: white;
+            font-size: 2.5rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #0040a8;
+            padding: 0.75rem 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            margin: 0 1rem;
+            padding: 0.5rem 1.5rem;
+            border-radius: 25px;
+            background: rgba(255, 255, 255, 0.1);
+            transition: transform 0.3s, background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: rgba(255, 255, 255, 0.3);
+            transform: scale(1.1);
+        }
+        main {
+            padding: 3rem;
+        }
+        main section {
+            margin-bottom: 2rem;
+            opacity: 0;
+            transform: translateY(50px);
+            animation: fadeInUp 1.5s ease forwards;
+        }
+        main section:nth-child(1) {
+            animation-delay: 0.5s;
+        }
+        main section:nth-child(2) {
+            animation-delay: 1s;
+        }
+        main section:nth-child(3) {
+            animation-delay: 1.5s;
+        }
+        main section:nth-child(4) {
+            animation-delay: 2s;
+        }
+        main section:nth-child(5) {
+            animation-delay: 2.5s;
+        }
+        main h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        main p {
+            line-height: 1.8;
+            margin-bottom: 1rem;
+        }
+        footer {
+            background: linear-gradient(135deg, #002f8748, #001d5c);
+            text-align: center;
+            padding: 1.5rem;
+            color: white;
+            font-size: 0.9rem;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes slideInTop {
+            from {
+                opacity: 0;
+                transform: translateY(-100px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Histoire de la PlayStation 4</h1>
+    </header>
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="histoire.html">Histoire</a>
+        <a href="jeux.html">Jeux PS4 Iconiques</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <main>
+        <section>
+            <h2>Le lancement de la PlayStation 4</h2>
+            <p>La PlayStation 4 (PS4) a été officiellement dévoilée par Sony le 20 février 2013 lors d'une conférence à New York. Succédant à la PlayStation 3, elle a été lancée le 15 novembre 2013 en Amérique du Nord, suivie de l'Europe et de l'Australie le 29 novembre 2013. Cette console a marqué un tournant dans l'industrie grâce à son matériel puissant et son focus sur les développeurs de jeux.</p>
+        </section>
+        <section>
+            <h2>Caractéristiques techniques révolutionnaires</h2>
+            <p>La PS4 est équipée d'un processeur AMD Jaguar à 8 cœurs et d'une carte graphique Radeon, offrant une performance impressionnante pour son époque. Avec 8 Go de mémoire GDDR5, elle a permis des graphismes haute résolution et des expériences de jeu immersives. Elle était également équipée d'un disque dur interne de 500 Go ou 1 To, extensible par l'utilisateur.</p>
+        </section>
+        <section>
+            <h2>Un écosystème en expansion</h2>
+            <p>La PS4 a introduit le PlayStation Network amélioré, permettant aux joueurs d'accéder à des fonctionnalités en ligne comme le multijoueur, le streaming via PlayStation Now, et le partage de contenu grâce à la fonction "Share". Le PlayStation Plus est devenu essentiel pour profiter pleinement des fonctionnalités en ligne.</p>
+        </section>
+        <section>
+            <h2>Succès commercial et critiques</h2>
+            <p>Avec plus de 117 millions d'unités vendues à travers le monde, la PS4 est l'une des consoles les plus populaires de tous les temps. Elle a reçu des éloges pour sa bibliothèque de jeux diversifiée, incluant des exclusivités comme "The Last of Us Part II", "God of War", et "Horizon Zero Dawn".</p>
+        </section>
+        <section>
+            <h2>Un héritage durable</h2>
+            <p>La PS4 a non seulement défini une génération de jeux vidéo, mais elle a également posé les bases pour la PlayStation 5, sortie en 2020. Son impact sur l'industrie reste inégalé, et elle est toujours appréciée par de nombreux joueurs aujourd'hui.</p>
+        </section>
+    </main>
+    <footer>
+        &copy; 2025 Histoire de la PS4 - Tous droits réservés.
+    </footer>
+</body>
+</html>

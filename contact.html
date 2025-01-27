@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #1a1a1a, #003087);
+            color: white;
+            overflow-x: hidden;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background: linear-gradient(135deg, #0050c7, #003087);
+            padding: 2rem;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        header h1 {
+            margin: 0;
+            color: white;
+            font-size: 2.5rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #0040a8;
+            padding: 0.75rem 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            margin: 0 1rem;
+            padding: 0.5rem 1.5rem;
+            border-radius: 25px;
+            background: rgba(255, 255, 255, 0.1);
+            transition: transform 0.3s, background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: rgba(255, 255, 255, 0.3);
+            transform: scale(1.1);
+        }
+        main {
+            padding: 3rem;
+            text-align: center;
+            flex: 1;
+        }
+        .contact-info {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 2rem;
+            border-radius: 10px;
+            max-width: 90%;
+            margin: 0 auto;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+        @media (min-width: 768px) {
+            .contact-info {
+                max-width: 600px;
+            }
+        }
+        .contact-info h2 {
+            margin-bottom: 1.5rem;
+        }
+        .contact-info p {
+            line-height: 1.8;
+            margin-bottom: 1rem;
+        }
+        footer {
+            background: linear-gradient(135deg, #002f8748, #001d5c);
+            text-align: center;
+            padding: 1.5rem;
+            color: white;
+            font-size: 0.9rem;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contact</h1>
+    </header>
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="histoire.html">Histoire</a>
+        <a href="jeux.html">Jeux PS4 Iconiques</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <main>
+        <div class="contact-info">
+            <h2>Nous contacter</h2>
+            <p><strong>Adresse :</strong> 123 Rue de la PS4, 75000 Paris, France</p>
+            <p><strong>Téléphone :</strong> +33 1 23 45 67 89</p>
+            <p><strong>Email :</strong> contact@ps4histoire.fr</p>
+            <p>Vous pouvez nous écrire ou nous appeler pour toute question ou information supplémentaire.</p>
+        </div>
+    </main>
+    <footer>
+        &copy; 2025 Histoire de la PS4 - Tous droits réservés.
+    </footer>
+</body>
+</html>

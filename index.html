@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Présentation PS4</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #1a1a1a, #003087);
+            color: white;
+            overflow-x: hidden;
+        }
+        header {
+            background: linear-gradient(135deg, #0050c7, #003087);
+            padding: 2rem;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        header h1 {
+            margin: 0;
+            color: white;
+            font-size: 2.5rem;
+            animation: fadeInDown 1s ease;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #0040a8;
+            padding: 0.75rem 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            margin: 0 1rem;
+            padding: 0.5rem 1.5rem;
+            border-radius: 25px;
+            background: rgba(255, 255, 255, 0.1);
+            transition: transform 0.3s, background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: rgba(255, 255, 255, 0.3);
+            transform: scale(1.1);
+        }
+        main {
+            padding: 3rem;
+            text-align: center;
+            animation: fadeIn 1.5s ease;
+        }
+        main img {
+            max-width: 90%;
+            height: auto;
+            margin: 2rem 0;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+            animation: zoomIn 1.5s ease;
+        }
+        footer {
+            background: linear-gradient(135deg, #002f8748, #001d5c);
+            text-align: center;
+            padding: 1.5rem;
+            color: white;
+            font-size: 0.9rem;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Animations */
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes zoomIn {
+            from {
+                opacity: 0;
+                transform: scale(0.8);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Présentation de la PlayStation 4</h1>
+    </header>
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="histoire.html">Histoire</a>
+        <a href="jeux.html">Jeux PS4 Iconiques</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <main>
+        <h2>Une console révolutionnaire</h2>
+        <img src="img/PS4.png" alt="Image de la PlayStation 4">
+        <p>Sortie en 2013, la PlayStation 4 a marqué une nouvelle ère dans le monde du jeu vidéo. Avec ses graphismes époustouflants, son catalogue de jeux varié et ses fonctionnalités en ligne, elle est devenue l'une des consoles les plus vendues de tous les temps.</p>
+        <p>Découvrez pourquoi des millions de joueurs à travers le monde l'ont adoptée et explorez son histoire fascinante.</p>
+    </main>
+    <footer>
+        &copy; 2025 Présentation PS4 - Tous droits réservés.
+    </footer>
+</body>
+</html>
